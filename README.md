@@ -62,14 +62,14 @@ distributed-kv-store/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/distributed-kv-store.git
-cd distributed-kv-store
+git clone https://github.com/AkashKumbhar07/Test_PRO.git
+cd Test_PRO
 ```
 
 2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  
 ```
 
 3. Install dependencies:

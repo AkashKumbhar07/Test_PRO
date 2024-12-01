@@ -86,7 +86,7 @@ class KeyValueStoreBenchmark:
                     self.results.add_latency(latency)
 
         total_time = time.time() - start_time
-        self.results.total_operations = num_operations * 3  # 3 operations per key
+        self.results.total_operations = num_operations * 3  
         self.results.operations_per_second = self.results.total_operations / total_time
         self.results.success_rate = (self.results.total_operations - self.results.failed_operations) / self.results.total_operations * 100
 
@@ -94,7 +94,7 @@ class KeyValueStoreBenchmark:
 
 if __name__ == "__main__":
     benchmark = KeyValueStoreBenchmark()
-    results = benchmark.run_concurrent_operations(1000)  # Run 1000 sets of operations
+    results = benchmark.run_concurrent_operations(1000)  # Run 1000 sets operations
     print("Benchmark Results:")
     for key, value in results.items():
         if 'latency' in key:

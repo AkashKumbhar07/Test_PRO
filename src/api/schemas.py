@@ -1,4 +1,3 @@
-# src/api/schemas.py
 from dataclasses import dataclass
 from typing import Optional, Any, Dict, List
 from datetime import datetime
