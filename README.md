@@ -199,10 +199,3 @@ export PORT=8001
 4. Push to the branch
 5. Create a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For any questions or issues, please open an issue on GitHub or contact [your-email@example.com].
